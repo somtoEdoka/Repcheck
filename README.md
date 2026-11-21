@@ -83,8 +83,7 @@ The app screens below use sample data. The two photos above are real sets.
 
 ## Using the app
 
-1. **Sign in** at [app.repchek.fit](https://app.repchek.fit) with Google or an
-   email code. Your workouts are saved to your account.
+1. **Sign in** with Google or an email code. Your workouts are saved to your account.
 2. **Allow the camera** when asked. A short "How it works" screen follows once.
 3. **Pick an exercise** on Train, or tap All exercises.
 4. **Set up.** Choose your sets and reps (or seconds for a hold), and where the
