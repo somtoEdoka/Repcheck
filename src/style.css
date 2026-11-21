@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-ink: #0f0f0f;
+  --color-sand: #f2efe9;
+  --color-line: #e6e2da;
+  --color-muted: #5f5f5a;
+  --color-forest: #17352b;
+  --color-bad: #e5484d;
+  --color-dim: #9ca3af;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.mirrored {
+  transform: scaleX(-1);
+}
+
+.notice {
+  background: rgba(23, 53, 43, 0.95) !important;
+  color: #fff !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-forest);
+  outline-offset: 3px;
+}
+
+/* The camera screen is dark, so the focus ring there must be light. */
+#app > :not(section):focus-visible,
+#hud:focus-visible {
+  outline-color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
