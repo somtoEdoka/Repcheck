@@ -9,11 +9,6 @@ with your numbers on the video, and saves the workout so you can see yourself
 improve week by week.
 
 
-<p>
-  <img src="docs/screenshots/live-push-up.jpg" alt="A push-up counted live, with the Set, Reps, Time and Pace bar" width="240">
-  <img src="docs/screenshots/live-plank.jpg" alt="A plank held for 40 seconds, counted live" width="240">
-</p>
-
 ## Contents
 
 - [What it does](#what-it-does)
